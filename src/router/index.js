@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import Home from '../views/Home.vue'
+import Home from '../pages/Home.vue';
+import GenerarPassword from '../pages/GenerarPassword.vue';
 
 const routes = [
   {
@@ -8,8 +9,11 @@ const routes = [
   },
   {
     path: '/home',
-    name: 'Home',
     component: Home 
+  },
+  {
+    path:'/password',
+    component: GenerarPassword
   }
 ]
 
