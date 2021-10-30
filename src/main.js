@@ -20,6 +20,26 @@ import '@ionic/vue/css/text-transformation.css';
 import '@ionic/vue/css/flex-utils.css';
 import '@ionic/vue/css/display.css';
 
+/* La Firebase implementation comentamos debido a que no lo usamos de momento por lo que arroja el error */
+
+// import firebase package
+/* 
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDqLmSeEFiHcNStXghLkqhvyRUeC-u-lL8",
+  authDomain: "ionic-app-2b996.firebaseapp.com",
+  projectId: "ionic-app-2b996",
+  storageBucket: "ionic-app-2b996.appspot.com",
+  messagingSenderId: "740740572056",
+  appId: "1:740740572056:web:3cedcb460d2117269b41ed"
+};
+
+// Initialize Firebase
+const appFirebase = initializeApp(firebaseConfig);
+*/
+
+  
 /* Theme variables */
 import './theme/variables.css';
 import './theme/core.css';
