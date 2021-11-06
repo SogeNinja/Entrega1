@@ -1,5 +1,6 @@
 <template>
     <ion-page>
+        <link ref="stylesheet" href="./theme/boton.css">
         <ion-toolbar>
             <ion-title>DuocUC</ion-title>
         </ion-toolbar>
